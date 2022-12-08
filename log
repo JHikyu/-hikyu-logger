@@ -1,0 +1,209 @@
+
+2022-12-07 19:28:32 ReferenceError: nonExisting is not defined
+2022-12-07 19:29:02 ReferenceError: nonExisting is not defined
+2022-12-07 19:29:13 ReferenceError: nonExisting is not defined in uncaughtException
+2022-12-07 19:30:51 ReferenceError: nonExisting is not defined
+2022-12-07 19:31:03 ReferenceError: nonExisting is not defined
+2022-12-07 19:31:07 ReferenceError: nonExisting is not defined
+2022-12-07 19:31:38 ReferenceError: nonExisting is not defined
+2022-12-07 19:31:52 ReferenceError: nonExisting is not defined
+2022-12-07 19:32:18 ReferenceError: nonExisting is not defined
+2022-12-07 19:32:57 ReferenceError: nonExisting is not defined
+2022-12-07 19:33:19 ReferenceError: nonExisting is not defined
+2022-12-07 19:33:25 ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 19:33:58 ReferenceError nonExisting is not defined Stack: ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 19:34:38 ReferenceError nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 19:34:53 ReferenceError nonExisting is not defined
+2022-12-07 19:34:53 ReferenceError nonExisting is not defined
+2022-12-07 19:34:54 ReferenceError nonExisting is not defined
+2022-12-07 19:35:15: ReferenceError nonExisting is not defined
+2022-12-07 19:35:23: ReferenceError nonExisting is not defined
+2022-12-07 19:35:44: ReferenceError nonExisting is not defined
+2022-12-07 19:36:18: ReferenceError nonExisting is not defined
+2022-12-07 19:37:40: ReferenceError nonExisting is not defined
+2022-12-07 19:37:41: ReferenceError nonExisting is not defined
+2022-12-07 19:37:42: ReferenceError nonExisting is not defined
+2022-12-07 19:37:47: ReferenceError nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 19:38:11: ReferenceError nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 19:38:17: ReferenceError nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Desktop/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:34:45	|	Hello world
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:34:52	|	Hello world
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:34:52	|	Hello world
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:34:53	|	Hello world
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:34:53	|	Hello world
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:35:41	|	Hello world
+2022-12-07 21:35:46	|	Hello world
+2022-12-07 21:35:47	|	Hello world
+2022-12-07 21:35:47	|	Hello world
+2022-12-07 21:35:47	|	Hello world
+2022-12-07 21:35:56	|	Hello world
+2022-12-07 21:36:02	|	Hello world
+2022-12-07 21:36:02	|	Hello world
+2022-12-07 21:36:03	|	Hello world
+2022-12-07 21:36:22	|	Hello world
+2022-12-07 21:36:25	|	Hello world
+2022-12-07 21:36:36	|	Hello world
+2022-12-07 21:36:44	|	Hello world
+2022-12-07 21:36:51	|	Hello world
+2022-12-07 21:37:06	|	Hello world
+2022-12-07 21:37:06	|	ReferenceError	|	nonExisting is not defined
+2022-12-07 21:37:13	|	Hello world
+2022-12-07 21:37:13	|	ReferenceError	|	nonExisting is not defined
+2022-12-07 21:37:27	|	Hello world
+2022-12-07 21:37:27	|	ReferenceError	|	nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:37:28	|	Hello world
+2022-12-07 21:37:28	|	ReferenceError	|	nonExisting is not defined
+ReferenceError: nonExisting is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:38:41	|	ReferenceError	|	fopkspiofgskpiofg is not defined
+ReferenceError: fopkspiofgskpiofg is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:39:41	|	ReferenceError	|	fopkspiofgskpiofg is not defined
+ReferenceError: fopkspiofgskpiofg is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:40:47	|	ReferenceError	|	addEventListener is not defined
+ReferenceError: addEventListener is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-07 21:41:17	|	ReferenceError	|	addEventListener is not defined
+ReferenceError: addEventListener is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/logger/test.js:7:1)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
