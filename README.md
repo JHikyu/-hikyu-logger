@@ -1,6 +1,6 @@
-To install @jhikyu/log, run the following command:
+To install @hikyu/log, run the following command:
 ```bash
-npm install @jhikyu/log
+npm install @hikyu/log
 ```
 
 To use the package, require it in your project like so:
