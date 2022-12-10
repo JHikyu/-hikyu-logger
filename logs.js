@@ -7,5 +7,15 @@ console.log(__dirname);
 
 if(fs.existsSync(logPathsPath)) {
   const logPaths = fs.readFileSync(logPathsPath, 'utf-8');
-  console.log(logPaths);
+  
+  for(const key in logPaths) {
+    const value = logPaths[key];
+
+    if(fs.existsSync(value)) {
+      console.log(fs.readFileSync(value));
+    }
+
+    console.log(value);
+  }
+
 }

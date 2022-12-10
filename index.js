@@ -86,11 +86,13 @@ async function globalLogs() {
   const globalPath = `${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`;
   const logPathsPath = globalPath + '/logPaths.json';
 
+  const projectName = process.mainModule.path.split('/').pop();
+
   //! Global logs
   fs.stat(`${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`, (err, stats) => {
     if(err || !stats.isDirectory()) return;
 
-    let logPaths = [];
+    let logPaths = {};
 
     if(!fs.existsSync(logPathsPath)) {
       fs.writeFileSync(logPathsPath, JSON.stringify(logPaths));
@@ -98,9 +100,7 @@ async function globalLogs() {
   
     logPaths = JSON.parse(fs.readFileSync(logPathsPath, 'utf-8'));
 
-    if(logPaths.find(x => x == useFile.path)) return;
-
-    logPaths.push(useFile.path);
+    logPaths[projectName] = useFile.path;
 
     fs.writeFileSync(logPathsPath, JSON.stringify(logPaths));
   })
