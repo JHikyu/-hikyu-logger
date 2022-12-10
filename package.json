@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "cli-color": "^2.0.3"
+  },
+  "bin": {
+    "logs": "logs.js"
   }
 }
