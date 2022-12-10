@@ -41,12 +41,14 @@ async function logProject(key, value) {
         for (let i = Math.max(lines.length - 10, 0); i < lines.length; i++) {
           logLines.push(lines[i])
         }
-      });
 
         error(key);
         for(let i = 0 ; i < logLines.length ; i++) {
             console.log(logLines[i]);
         }
+      });
+
+
 
     }
 }
