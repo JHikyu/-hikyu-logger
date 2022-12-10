@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const logPathsPath = path.join(__dirname, 'logPaths.json');
 
 console.log(__dirname);
 
-fs.readdir(__dirname, (err, files) => {
-  if(err) return;
-
-  console.log(files.join('\n'));
-})
+if(fs.existsSync(logPathsPath)) {
+  const logPaths = fs.readFileSync(logPathsPath, 'utf-8');
+  console.log(logPaths);
+}
