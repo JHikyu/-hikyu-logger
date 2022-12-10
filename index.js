@@ -87,13 +87,14 @@ function append(text) {
 
 }
 
+
 async function globalLogs() {
-  const globalPath = `${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`;
+  const globalPath = path.join(process.execPath, '..', '..', 'lib', 'node_modules', '@hikyu', 'log');
   const logPathsPath = globalPath + '/logPaths.json';
 
   const projectName = process.mainModule.path.split('/').pop();
 
-  console.log('saving individual log in', logPathsPath)
+  console.log('saving file in', logPathsPath);
 
   //! Global logs
   fs.stat(globalPath, (err, stats) => {
