@@ -43,6 +43,11 @@ module.exports.log = (...args) => {
   if(useFile.active) append(`${new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')}\t|\t${args.join(', ')}`);
 }
 
+module.exports.error = (...args) => {
+  console.log(cError(`${new Date().toLocaleTimeString()}`), ...args);
+  if(useFile.active) append(`${new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')}\t|\t${args.join(', ')}`);
+}
+
 module.exports.typeLog = (type, ...args) => {
   console.log(cDate(`${new Date().toLocaleTimeString()}`), cType(type), ...args);
   if(useFile.active) append(`${new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '')}\t|\t${type}\t|\t${args.join(', ')}`);
