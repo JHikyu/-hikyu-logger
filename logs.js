@@ -4,6 +4,7 @@ const path = require('path');
 const { log, error } = require('./index.js');
 const logPathsPath = path.join(__dirname, 'logPaths.json');
 
+console.log('looking for logs in', logPathsPath)
 
 if(fs.existsSync(logPathsPath)) {
   const logPaths = JSON.parse(fs.readFileSync(logPathsPath, 'utf8'));

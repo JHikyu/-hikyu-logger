@@ -93,8 +93,10 @@ async function globalLogs() {
 
   const projectName = process.mainModule.path.split('/').pop();
 
+  console.log('saving individual log in', logPathsPath)
+
   //! Global logs
-  fs.stat(`${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`, (err, stats) => {
+  fs.stat(globalPath, (err, stats) => {
     if(err || !stats.isDirectory()) return;
 
     let logPaths = {};
