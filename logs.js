@@ -8,10 +8,10 @@ let currentProject = 0;
 
 if(fs.existsSync(logPathsPath)) {
   const logPaths = JSON.parse(fs.readFileSync(logPathsPath, 'utf8'));
-    const value = logPaths[key];
 
   
   for(const key in logPaths) {
+    const value = logPaths[key];
     logProject(key, value);
   }
 
