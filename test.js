@@ -14,4 +14,4 @@ useFile('log', { lines: 1000 });
 
 // console.log(a);
 
-console.log(process.mainModule.path)
+// console.log(process.mainModule.path)
