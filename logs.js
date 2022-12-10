@@ -8,9 +8,11 @@ let currentProject = 0;
 
 if(fs.existsSync(logPathsPath)) {
   const logPaths = JSON.parse(fs.readFileSync(logPathsPath, 'utf8'));
+    const value = logPaths[key];
+
   
   for(const key in logPaths) {
-    logProject(key);
+    logProject(key, value);
   }
 
 }
@@ -20,9 +22,7 @@ else {
   log('Run that project and then try logs again!')
 }
 
-async function logProject() {
-    const value = logPaths[key];
-
+async function logProject(key, value) {
     // console.log(key, logPaths);
 
     if(fs.existsSync(value)) {
