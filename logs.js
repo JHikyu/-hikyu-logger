@@ -2,10 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { log, error } = require('./index.js');
-// const logPathsPath = path.join(__dirname, 'logPaths.json');
-const logPathsPath = path.join('/home/deck/.nvm/versions/node/v16.17.1/lib/node_modules/@hikyu/log/', 'logPaths.json');
-
-
+const logPathsPath = path.join(__dirname, 'logPaths.json');
 
 
 if(fs.existsSync(logPathsPath)) {
@@ -38,4 +35,9 @@ if(fs.existsSync(logPathsPath)) {
     }
   }
 
+}
+else {
+  log('No log files found :(')
+  log('Try installing @hikyu/log in a project and use the useFile() function')
+  log('Run that project and then try logs again!')
 }
