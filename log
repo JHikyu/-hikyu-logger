@@ -207,3 +207,61 @@ ReferenceError: addEventListener is not defined
     at Function.Module._load (node:internal/modules/cjs/loader:839:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
     at node:internal/main/run_main_module:17:47
+2022-12-10 11:58:25	|	ReferenceError	|	__basedir is not defined
+ReferenceError: __basedir is not defined
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/@hikyu⁄log/test.js:18:13)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-10 11:59:44	|	Error	|	Cannot find module 'npm-config'
+Require stack:
+- /home/deck/Documents/Programmieren/npm/@hikyu⁄log/test.js
+Error: Cannot find module 'npm-config'
+Require stack:
+- /home/deck/Documents/Programmieren/npm/@hikyu⁄log/test.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Module.require (node:internal/modules/cjs/loader:1028:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/@hikyu⁄log/test.js:18:19)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2022-12-10 12:00:12	|	TypeError	|	npmConfig.prefix is not a function
+TypeError: npmConfig.prefix is not a function
+    at Object.<anonymous> (/home/deck/Documents/Programmieren/npm/@hikyu⁄log/test.js:20:11)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+2022-12-10 12:06:40	|	TypeError	|	Cannot read properties of undefined (reading 'NVM_DIR')
+TypeError: Cannot read properties of undefined (reading 'NVM_DIR')
+    at /home/deck/Documents/Programmieren/npm/@hikyu⁄log/index.js:92:54
+    at FSReqCallback.oncomplete (node:fs:207:5)
+2022-12-10 12:06:58	|	TypeError	|	Cannot read properties of undefined (reading 'NVM_DIR')
+TypeError: Cannot read properties of undefined (reading 'NVM_DIR')
+    at /home/deck/Documents/Programmieren/npm/@hikyu⁄log/index.js:92:54
+    at FSReqCallback.oncomplete (node:fs:207:5)
+2022-12-10 12:20:43	|	Error	|	ENOENT: no such file or directory, open '/home/deck/.nvm/versions/node/v16.17.1/lib/node_modules/@hikyu/log/logPaths.json'
+Error: ENOENT: no such file or directory, open '/home/deck/.nvm/versions/node/v16.17.1/lib/node_modules/@hikyu/log/logPaths.json'
+    at Object.openSync (node:fs:594:3)
+    at Object.readFileSync (node:fs:462:35)
+    at /home/deck/Documents/Programmieren/npm/@hikyu⁄log/index.js:99:30
+    at FSReqCallback.oncomplete (node:fs:207:5)
+2022-12-10 12:21:43	|	SyntaxError	|	Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /home/deck/Documents/Programmieren/npm/@hikyu⁄log/index.js:100:21
+    at FSReqCallback.oncomplete (node:fs:207:5)
+2022-12-10 12:22:11	|	SyntaxError	|	Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at /home/deck/Documents/Programmieren/npm/@hikyu⁄log/index.js:100:21
+    at FSReqCallback.oncomplete (node:fs:207:5)

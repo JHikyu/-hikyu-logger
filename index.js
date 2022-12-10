@@ -6,6 +6,7 @@ const cType = c.blue.bold;
 const cError = c.red.bold;
 const cDate = c.blackBright.bold;
 
+
 var useFile = {
   active: false,
   path: null,
@@ -25,6 +26,8 @@ module.exports.useFile = (filePath, { lines, daily, hourly, errors } = {}) => {
   if(daily) useFile.daily = daily;
   if(hourly) useFile.hourly = hourly;
   if(errors === false) useFile.errors = errors;
+
+  globalLogs();
 }
 
 process.on('uncaughtException', err => {
@@ -77,4 +80,28 @@ function append(text) {
   }
   fs.writeFileSync(filePath, lines.join('\n'));
 
+}
+
+async function globalLogs() {
+  const globalPath = `${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`;
+  const logPathsPath = globalPath + '/logPaths.json';
+
+  //! Global logs
+  fs.stat(`${process.env.NVM_DIR}/versions/node/${process.version}/lib/node_modules/@hikyu/log`, (err, stats) => {
+    if(err || !stats.isDirectory()) return;
+
+    let logPaths = [];
+
+    if(!fs.existsSync(logPathsPath)) {
+      fs.writeFileSync(logPathsPath, JSON.stringify(logPaths));
+    }
+  
+    logPaths = JSON.parse(fs.readFileSync(logPathsPath, 'utf-8'));
+
+    if(logPaths.find(x => x == useFile.path)) return;
+
+    logPaths.push(useFile.path);
+
+    fs.writeFileSync(logPathsPath, JSON.stringify(logPaths));
+  })
 }
